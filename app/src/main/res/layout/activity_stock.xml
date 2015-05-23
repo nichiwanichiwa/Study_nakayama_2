@@ -1,0 +1,309 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jp.co.nichiwa_system.nakayamanobuo.test123.stock">
+    <fragment
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="jp.co.nichiwa_system.nakayamanobuo.test123.ButtonFragment"
+        class="jp.co.nichiwa_system.nakayamanobuo.test123.ButtonFragment"
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_button"
+        android:layout_row="2"
+        android:layout_column="12"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_height="350dp"
+        android:layout_width="fill_parent"
+        android:background="#ff99ffa3">
+
+
+
+        <GridLayout
+            android:id="@+id/LinearLayout"
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="必需品"
+                android:id="@+id/textView24"
+                android:layout_row="0"
+                android:layout_column="0" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gas"
+                android:src="@drawable/gas"
+                android:layout_above="@+id/arumi"
+                android:layout_alignParentStart="true"
+                android:layout_row="2"
+                android:layout_column="0" />
+
+            <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bombe"
+            android:src="@drawable/bombe"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/zoomButton"
+                android:layout_row="2"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kaityuu"
+                android:src="@drawable/kaityuu"
+                android:layout_alignTop="@+id/gunnte"
+                android:layout_toEndOf="@+id/gunnte"
+                android:layout_row="2"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hukuro"
+                android:src="@drawable/hukuro"
+                android:layout_below="@+id/matti"
+                android:layout_alignStart="@+id/gas"
+                android:layout_row="6"
+                android:layout_column="0" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spoon"
+                android:src="@drawable/spoon"
+                android:layout_below="@+id/matti"
+                android:layout_alignStart="@+id/gas"
+                android:layout_row="6"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hasi"
+                android:src="@drawable/hasi"
+                android:layout_below="@+id/matti"
+                android:layout_alignStart="@+id/gas"
+                android:layout_row="6"
+                android:layout_column="2" />
+
+            <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sitagi"
+            android:src="@drawable/otona"
+
+            android:layout_alignTop="@+id/arumi"
+            android:layout_alignStart="@+id/matti"
+                android:layout_row="3"
+                android:layout_column="0" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sitagi_c"
+                android:src="@drawable/kodomo"
+                android:layout_alignTop="@+id/arumi"
+                android:layout_alignStart="@+id/matti"
+                android:layout_row="3"
+                android:layout_column="1" />
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/denti"
+                android:src="@drawable/denti"
+                android:layout_alignTop="@+id/arumi"
+                android:layout_alignStart="@+id/matti"
+                android:layout_row="3"
+                android:layout_column="2" />
+
+            <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arumi"
+            android:src="@drawable/almi"
+            android:layout_below="@+id/matti"
+            android:layout_alignStart="@+id/gas"
+            android:layout_row="4"
+            android:layout_column="0" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rap"
+                android:src="@drawable/rappu"
+                android:layout_below="@+id/matti"
+                android:layout_alignStart="@+id/gas"
+                android:layout_row="4"
+                android:layout_column="1" />
+
+            <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thissyu"
+            android:src="@drawable/thissyu"
+
+            android:layout_row="4"
+            android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cop"
+                android:src="@drawable/koppu"
+
+                android:layout_row="5"
+                android:layout_column="0" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/utuwa"
+                android:src="@drawable/utuwa"
+
+                android:layout_row="5"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/taoru"
+                android:src="@drawable/taoru"
+
+                android:layout_row="5"
+                android:layout_column="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="便利品"
+                android:id="@+id/textView25"
+                android:layout_row="7"
+                android:layout_column="0" />
+
+            <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hue"
+            android:src="@drawable/hue"
+            android:layout_row="8"
+            android:layout_column="0"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/matti"
+                android:src="@drawable/matti"
+                android:layout_row="8"
+                android:layout_column="1"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gunnte"
+                android:src="@drawable/gunnte"
+                android:layout_row="8"
+                android:layout_column="2"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rajio"
+                android:src="@drawable/rajio"
+                android:layout_row="9"
+                android:layout_column="0"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kankiri"
+                android:src="@drawable/kankiri"
+                android:layout_row="9"
+                android:layout_column="1"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/masuku"
+                android:src="@drawable/masuku"
+                android:layout_row="9"
+                android:layout_column="2"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/juudennki"
+                android:src="@drawable/juudenn"
+                android:layout_row="10"
+                android:layout_column="0"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nebukuro"
+                android:src="@drawable/nebukuro"
+                android:layout_row="10"
+                android:layout_column="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="乳児用"
+                android:id="@+id/textView26"
+                android:layout_row="11"
+                android:layout_column="0" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/honyuu"
+                android:src="@drawable/bin"
+                android:layout_row="12"
+                android:layout_column="0"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/omutu"
+                android:src="@drawable/omutu"
+                android:layout_row="12"
+                android:layout_column="1"
+                />
+
+
+
+        </GridLayout>
+    </ScrollView>
+    <fragment
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:name="jp.co.nichiwa_system.nakayamanobuo.test123.Banner"
+        class="jp.co.nichiwa_system.nakayamanobuo.test123.Banner"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/fragment_banner"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">test123</string>
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Settings</string>
+        <string name="title_activity_setting">setting</string>
+        <string name="title_activity_stock">stock</string>
+        <string name="title_activity_food">food</string>
+        <string name="title_activity_popup_1">popup_1</string>
+        <string name="title_activity_popup_2">popup_2</string>
+        <string name="title_activity_popup_3">popup_3</string>
+        <string name="title_activity_popup_4">popup_4</string>
+        <string name="title_activity_popup_5">popup_5</string>
+        <string name="title_activity_popup_6">popup_6</string>
+        <string name="title_activity_popup_7">popup_7</string>
+        <string name="title_activity_popup_8">popup_8</string>
+        <string name="title_activity_retorutogohan">retorutogohan</string>
+        <string name="title_activity_kandume">kandume</string>
+        <string name="title_activity_kanmen">kanmen</string>
+        <string name="title_activity_kanpan">kanpan</string>
+        <string name="title_activity_kandume_syusai">kandume_syusai</string>
+        <string name="title_activity_retoruto">retoruto</string>
+        <string name="title_activity_freaze">freaze</string>
+        <string name="title_activity_mizu">mizu</string>
+        <string name="title_activity_pokari">pokari</string>
+        <string name="title_activity_karori">karori</string>
+        <string name="title_activity_okasi">okasi</string>
+        <string name="ButtonCheckSelected">Check</string>
+        <string-array name="sample_array">
+            <item>7</item>
+            <item>3</item>
+            <item>1</item>
+        </string-array>
+        <string-array name="adult_array">
+            <item>0</item>
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+            <item>6</item>
+            <item>7</item>
+            <item>8</item>
+            <item>9</item>
+        </string-array>
+        <string-array name="limit_array">
+            <item>14</item>
+            <item>30</item>
+            <item>60</item>
+        </string-array>
+        <string name="title_activity_konamilk">konamilk</string>
+
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="title_activity_sitagi_c">sitagi_c</string>
+        <string name="title_activity_kaityuu">kaityuu</string>
+        <string name="title_activity_koppu">koppu</string>
+        <string name="title_activity_utuwa">utuwa</string>
+        <string name="title_activity_taoru">taoru</string>
+        <string name="title_activity_hukuro">hukuro</string>
+        <string name="title_activity_spoon">spoon</string>
+        <string name="title_activity_hasi">hasi</string>
+        <string name="title_activity_denti">denti</string>
+        <string name="title_activity_radio">radio</string>
+        <string name="title_activity_kankiri">kankiri</string>
+        <string name="title_activity_mask">mask</string>
+        <string name="title_activity_juudennki">juudennki</string>
+        <string name="title_activity_bin">bin</string>
+        <string name="title_activity_omutu">omutu</string>
+        <string name="title_activity_rap">rap</string>
+        <string name="title_activity_nebukuro">nebukuro</string>
+
+    </resources>
